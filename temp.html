@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="temp.css">
+    <script src="temp.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="budget">
+            <div class="total_budget">Budget: <span class="budget_value"></span></div>
+            <div>Income: <span class="income_value"></span></div>
+            <div>Expenses: <span class="exp_value"></span> <span class="percent"></span></div>
+        </div>
+        <div class="top_line">
+            <select name="type" id="type">
+                <option value="inc">Income</option>
+                <option value="exp">Expense</option>
+            </select>
+            <input type="text" id="desc" placeholder="Description">
+            <input type="text" id="amount" placeholder="Amount">
+            <button id="add">Add</button>
+        </div>
+        <div class="notes">
+            <div class="left">
+                <div class="title">Income</div>
+            </div>
+            <div class="right">
+                <div class="title">Expense</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
